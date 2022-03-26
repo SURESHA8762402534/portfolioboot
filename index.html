@@ -15,12 +15,15 @@
 #sidebar{
     display: none;
 }
+progress{
+    width: 300px;
+}
 }
 </style>
 </head>
 <body>
 
-    <div class="container" style="border: 1px solid blue; ">
+    <div class="container-fluid" style="border: 1px solid blue; ">
         <div class="row bg-primary">
             <div id="sidebar" class="col-3 bg-secondary p-5" style="position: sticky;top: 0; height: 100vh;">
                 <marquee behavior="" direction="" style="color: white;font-weight: 800;">WELCOME</marquee>
@@ -51,7 +54,7 @@
                         <p style="margin-top: 20px; opacity: 0.6;font-weight: bold;">I am a hardworking engineering graduate, who have interests in exploring
                             new things and want to work in the field of Web Development.</p>
                             <button style="background-color: rgb(73, 102, 184);margin:50px;margin-left: 100px;
-                             color: white;text-align: center;border-radius: 10px;box-shadow: 0 10px 10px black;">About me</button>
+                             color: white;text-align: center;border-radius: 10px;box-shadow: 0 10px 10px black;" title="vedio">About me</button>
                     </div>
                     <div class="col-4 mt-5">
                         <img src="selfi.jpeg" alt="" style="width: 400px;height: 400px; border-radius: 20px;box-shadow: 0 10px 10px 0 black;">
@@ -116,16 +119,16 @@
                 <div class="row" style="border: 2px solid black; padding: 20px; border-radius: 10px;margin-bottom: 20px;">
                     <div class="col-10 bg-secondary" style="padding: 20px;border-radius: 10px;box-shadow: 0 10px 10px black; margin-top: 20px;">
                         <h4>HTML</h4>
-                        <progress className="progress" max="100" value="75" style=" width: 600px; margin-bottom: 20px;" ></progress><br/>
+                        <progress className="progress" max="100" value="80" style=" width: 600px; margin-bottom: 20px;" ></progress><br/>
                         <h4>CSS</h4>
                         <progress className="progress" max="100" value="70" style=" width: 600px; margin-bottom: 20px;"></progress><br/>
                         <h4>Java Script</h4>
-                        <progress className="progress" max="100" value="65" style=" width: 600px; margin-bottom: 20px;"></progress><br/>
-                        <h4>C progamming</h4>
+                        <progress className="progress" max="100" value="75" style=" width: 600px; margin-bottom: 20px;"></progress><br/>
+                        <h4>React JS</h4>
+                        <progress className="progress" max="100" value="75" style=" width: 600px; margin-bottom: 20px;"></progress><br/>
+                        <h4>C progamming and JAVA</h4>
                         <progress className="progress" max="100" value="60" style=" width: 600px; margin-bottom: 20px;"></progress><br/>
-                        <h4>JAVA and Python</h4>
-                        <progress className="progress" max="100" value="50" style=" width: 600px; margin-bottom: 20px;"></progress><br/>
-                        <br/><br/>
+                       <br>
 
                     </div>
                 </div>
@@ -137,30 +140,33 @@
                         <div class="row">
                             <div class="col-5  bg-warning m-4  " style="text-align: center; padding: 10px; margin: 10px; border-radius: 10px; box-shadow: 0 10px 10px black;">
                                 
-                                    <h4>"E-Commerce website"</h4>
-                                    <p >This e-commerce website is developed by using the fakestore api, and this contains 
-                                        the basic functionalities of a normal e-commerce website.
+                                    <h4>"Music World"</h4>
+                                    <p >This application is like a basic music application contains top songs, top artist, top albums, 
+                                        favarites, playlist pages and search functionality.
+                                        to development i used napster api to fetch the music tracks and used redux to maitain the states.
                                     </p>
                                
                             </div>
                             <div class="col-5 bg-warning m-4" style="text-align: center; padding: 10px; border-radius: 10px; margin: 10px; box-shadow: 0 10px 10px black;">
                                 
-                                <h4>"<b>Tic-Tok-Toi</b> App"</h4>
-                                <p>This game allows two persons to play at a time, one has to place his
-                                     characters in a way that three characters has to come in a staight line.  </p>
+                                <h4>"Movies World"</h4>
+                                <p>This application is for getting the information about some movies like thier relies date, Director name, boxoffice collection etc.
+                                    in this application using axios for fetching api and redux for maintaining states, and using the OMDB api for getting the movies data.
+                                </p>
                              </div>
                         </div>
                         <div class="row">
                             <div class="col-5 bg-warning m-4" style="text-align: center; padding: 10px; border-radius: 10px; margin: 10px; box-shadow: 0 10px 10px black;">
                                 
-                                <h4>"<b>weather report</b> App "</h4>
-                                <p>This app will help to get the weather report of
-                                   any place by searching the name of that place or city name</p>
+                                <h4>"E-Commerce page "</h4>
+                                <p>This e-commerce webpage is developed by using the fakestore api, and this contains 
+                                    the basic functionalities of a normal e-commerce website adding to cart, removing from cart, increse in count etc.</p>
                              </div>
                              <div class="col-5 bg-warning m-4" style="text-align: center; padding: 10px; border-radius: 10px; margin: 10px; box-shadow: 0 10px 10px black;">
                                 
-                                <h4><b>"Navigation map</b></h4>
-                                <p>This app will helps to track the travelled path and allows to set the destination to travell</p>
+                                <h4>"<b>Tic-Tok-Toi</b> App"</h4>
+                                <p>This game allows two persons to play at a time, one has to place his
+                                    characters in a way that three characters has to come in a staight line.</p>
                              </div>
                         </div>
                         </div>
